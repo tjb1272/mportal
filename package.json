@@ -1,0 +1,39 @@
+{
+    "name": "portal",
+    "version": "1.0.0",
+    "description": "Mentor Student Portal",
+    "main": "app.js",
+    "scripts": {
+        "test": "test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "portal"
+    },
+    "author": "Tracie",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "*",
+        "body-parser": "^1.18.2",
+        "bootstrap": "^4.1.1",
+        "connect-flash": "^0.1.1",
+        "cookie-parser": "^1.4.1",
+        "cookie-session": "*",
+        "cors": "^2.8.4",
+        "express": "^4.16.2",
+        "express-handlebars": "^3.0.0",
+        "express-session": "^1.0.6",
+        "express-validator": "^5.0.0",
+        "flash": "^1.1.0",
+        "handlebars": "^4.0.11",
+        "jquery": "^3.3.1",
+        "passport": "^0.4.0",
+        "passport-http": "*",
+        "passport-local": "*",
+        "passport-local-sequelize": "^0.8.0",
+        "popper": "^1.0.1",
+        "sequelize": "^4.33.2",
+        "sqlite3": "^3.1.13"
+    },
+    "devDependencies": {}
+}
